@@ -1,6 +1,6 @@
 Copyright (C) 2018  Nguyen Ngoc Sang, <https://github.com/SangVn> 
 
-Thư viện **vncfd_1D** hỗ trợ tính toán động lực học một chiều dòng chảy không nhớt, cụ thể là giải hệ phương trình Euler 1D. Thư viện sử dụng ba sơ đồ: Godunov + Runge-Kutta 1 (Euler), MUSCL + Runge-Kutta 2, WENO5 + Runge-Kutta 3.
+Thư viện **vncfd_1D**, ngôn ngữ Python, hỗ trợ tính toán động lực học một chiều dòng chảy không nhớt, cụ thể là giải hệ phương trình Euler 1D. Thư viện sử dụng ba sơ đồ: Godunov + Runge-Kutta 1 (Euler), MUSCL + Runge-Kutta 2, WENO5 + Runge-Kutta 3.
 
 # Thư viện vncfd_1D gồm có 5 module:
 
