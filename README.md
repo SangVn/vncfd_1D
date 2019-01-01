@@ -11,6 +11,6 @@ Thư viện **vncfd_1D**, ngôn ngữ Python, hỗ trợ tính toán động l�
 *	weno5: sơ đồ weno5
 *	runge-kutta: phương pháp runge-kutta
 
-Để sử dụng thư viện, hãy đọc **hướng dẫn sử dụng**
+Để sử dụng thư viện, hãy đọc **[hướng dẫn sử dụng](https://nbviewer.jupyter.org/github/SangVn/vncfd_1D/blob/master/huong_dan_su_dung.ipynb)**
 <img src="riemann.png">
 <img src="Shu-Osher_problem.png">
