@@ -1,2 +1,1 @@
-* linguist-vendored
 lib/*.py linguist-language=Python
