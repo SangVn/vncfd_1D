@@ -74,8 +74,8 @@ def pressure_root_finding(Pl, Pr):
         P,info, ier, msg = fsolve(f, (p1+p2)/2.,full_output=True,factor=0.1,xtol=1.e-10)
         # trường hợp nghiệm không hội tụ 
         if ier!=1: 
-            print 'Warning: fsolve did not converge.'
-            print msg
+            print ('Warning: fsolve did not converge.')
+            print (msg)
    
     if P >= p1-eps: a1 = (r1*(gp1d2*P + gm1d2*p1))**0.5
     else: a1 =  gm1d2g*r1*c1*(1. - P/p1)/(1. - (P/p1)**gm1d2g)
@@ -137,7 +137,7 @@ def decay_godunov(Pl, Pr, pressure_solver):
         Pstar = p2*(Ustar/c2)**g2dgm1
         Rstar = g*p2/Ustar**2
     else:
-        print 'Godunov _ Decay Error!'
+        print ('Godunov _ Decay Error!')
         
     #vector biến gốc PStar
     PStar = [Rstar, Ustar, Pstar]

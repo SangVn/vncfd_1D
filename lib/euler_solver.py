@@ -75,7 +75,7 @@ def riemann_exact_solution(Pl, Pr, x, xstar, time_target):
             P_out[2, i] = p2*(cstar/c2)**g2dgm1          
             P_out[0, i] = g*P_out[2, i]/cstar**2
         else:
-            print 'Decay Error!'
+            print ('Decay Error!')
 
     return P_out
 
@@ -122,7 +122,7 @@ def euler_solver(Ps, reconstr, x, time_target, CFL):
         dt = time_step(Ps, CFL, dx) 
         if(time+dt > time_target): dt = time + dt - time_target
         time += dt
-        #print time
+        #print (time)
         for stage in range(runge_kutta_order):
             #bước 1: tái cấu trúc - reconstruction 
             P_left, P_right = reconstr(Ps)
