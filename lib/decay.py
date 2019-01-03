@@ -137,7 +137,7 @@ def decay_godunov(Pl, Pr, pressure_solver):
         Pstar = p2*(Ustar/c2)**g2dgm1
         Rstar = g*p2/Ustar**2
     else:
-        print ('Godunov _ Decay Error!')
+        print ('Decay Godunov: Error!')
         
     #vector biến gốc PStar
     PStar = [Rstar, Ustar, Pstar]
